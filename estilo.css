@@ -1,0 +1,104 @@
+body{
+    text-align: center;    
+}
+
+section{
+    font-size: 25px;
+    margin: 5%;
+}
+
+button{
+    margin-top: 5%;
+    width: 10%;
+    text-align: center;
+}
+
+h3{
+    display: block;
+    font-size: 29px;
+}
+
+p{
+    font-size: 18px;
+}
+
+#calculadora{
+    display: inline-block;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: solid 2px;
+    padding-bottom: 10px;
+    width: 20%;
+    background-color:#F0F8FF;
+    margin: 0 auto;
+}
+
+h2,h1{
+    margin: 0;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 28px;
+    width: 100%;
+    background-color:#008000;
+    font-family: cursive;
+    color:white;
+}
+
+
+#multiplicando{
+    border-bottom: solid 2px;
+}
+
+input{
+    width: 10%;
+    text-align: center;
+}
+
+[id*="sobeResto"]{
+    margin-right: 28%;
+}
+
+div{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    letter-spacing: 10px;
+    margin-right: 15%;
+
+}
+
+
+[id*="campoMuti"]{
+    margin-right: 15%;
+}
+
+[id*="campoMuti"]:last-child{
+    border-top: solid 2px;
+    padding: 2px;
+}
+
+
+@media (max-width: 500px){
+    body{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    button{
+        width: 100%;
+        
+    }
+    h2{
+        font-size: 15px;
+    }
+    
+    section article{
+        width: 30%;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+}
